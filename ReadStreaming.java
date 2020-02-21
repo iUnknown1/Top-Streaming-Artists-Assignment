@@ -1,3 +1,4 @@
+
 // imports
 package com.javainterviewpoint;
 
@@ -22,7 +23,8 @@ package com.javainterviewpoint;
 				while(scanner.hasNext())
 				{
 						System.out.print(scanner.next()+"   ");
-						
+					
+						// list of artist names
 						  TopStreamingArtists artistNames = new TopStreamingArtists();
 						    artistNames.insert("Stage Name");
 						    artistNames.displayList();
